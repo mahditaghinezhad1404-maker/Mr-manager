@@ -1,6 +1,7 @@
-     from fastapi import FastAPI
-     app = FastAPI()
+from fastapi import FastAPI
+app = FastAPI()
 
-     @app.get("/")
-     def read_root():
-         return {"message": "MR Manage is live!"}
+@app.get("/")
+def read_root():
+    return {"message": "MR Manage is active"}
+     
